@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+None
+
 ## Installation
 
 IosLib is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +24,7 @@ pod 'IosLib'
 
 ## Author
 
-ashwin.dinesh01@gmail.com, ashwin.dinesh01@gmail.com
+Ashwin Dinesh, ashwin.dinesh01@gmail.com
 
 ## License
 

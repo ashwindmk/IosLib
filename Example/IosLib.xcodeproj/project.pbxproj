@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CFD70870253BC69000B9EB13 /* IosLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD7086F253BC69000B9EB13 /* IosLib.framework */; };
+		CFD70871253BC69000B9EB13 /* IosLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFD7086F253BC69000B9EB13 /* IosLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4E9676733F19FEF53BE4547 /* Pods_IosLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0778004F796518F22BA4B54 /* Pods_IosLib_Example.framework */; };
 		E9990CC5D111A0CF0637CC47 /* Pods_IosLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ECAE50917833B96404FF15 /* Pods_IosLib_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -36,11 +38,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CFD70872253BC69000B9EB13 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CFD70871253BC69000B9EB13 /* IosLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		01D53EBC9023E2EA11CECD05 /* Pods-IosLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-IosLib_Tests/Pods-IosLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		39EFE7300D41B116E91F0F4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3E49237407353CDB9832D19E /* IosLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IosLib.podspec; path = ../IosLib.podspec; sourceTree = "<group>"; };
-		5E57CE93E43D30C33BA7B00E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39EFE7300D41B116E91F0F4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3E49237407353CDB9832D19E /* IosLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IosLib.podspec; path = ../IosLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E57CE93E43D30C33BA7B00E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IosLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +81,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96890B660EB67643188393D7 /* Pods-IosLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IosLib_Tests/Pods-IosLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AEAA72CC7E7B5E8F011B2264 /* Pods-IosLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosLib_Example.release.xcconfig"; path = "Target Support Files/Pods-IosLib_Example/Pods-IosLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFD7086F253BC69000B9EB13 /* IosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0778004F796518F22BA4B54 /* Pods_IosLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B4D637145A7D006C93C819 /* Pods-IosLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-IosLib_Example/Pods-IosLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD70870253BC69000B9EB13 /* IosLib.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -103,7 +121,6 @@
 				96890B660EB67643188393D7 /* Pods-IosLib_Tests.debug.xcconfig */,
 				01D53EBC9023E2EA11CECD05 /* Pods-IosLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFD7086F253BC69000B9EB13 /* IosLib.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -209,6 +227,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				457D224813F0EF965DBC211D /* [CP] Embed Pods Frameworks */,
+				CFD70872253BC69000B9EB13 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +267,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ashwin.dinesh01@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = KU59F2LKHW;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,9 +517,11 @@
 			baseConfigurationReference = F3B4D637145A7D006C93C819 /* Pods-IosLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU59F2LKHW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IosLib/IosLib-Prefix.pch";
 				INFOPLIST_FILE = "IosLib/IosLib-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +535,11 @@
 			baseConfigurationReference = AEAA72CC7E7B5E8F011B2264 /* Pods-IosLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU59F2LKHW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IosLib/IosLib-Prefix.pch";
 				INFOPLIST_FILE = "IosLib/IosLib-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

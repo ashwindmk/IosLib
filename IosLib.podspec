@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IosLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IosLib.'
+  s.summary          = 'iOS library for plugin test.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Simple iOS library for plugin test.
                        DESC
 
-  s.homepage         = 'https://github.com/ashwin.dinesh01@gmail.com/IosLib'
+  s.homepage         = 'https://github.com/ashwindmk/IosLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ashwin.dinesh01@gmail.com' => 'ashwin.dinesh01@gmail.com' }
-  s.source           = { :git => 'https://github.com/ashwin.dinesh01@gmail.com/IosLib.git', :tag => s.version.to_s }
+  s.author           = { 'Ashwin Dinesh' => 'ashwin.dinesh01@gmail.com' }
+  s.source           = { :git => 'https://github.com/ashwindmk/IosLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

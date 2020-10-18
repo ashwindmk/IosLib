@@ -7,7 +7,5 @@ target 'IosLib_Example' do
 
   target 'IosLib_Tests' do
     inherit! :search_paths
-
-    
   end
 end
